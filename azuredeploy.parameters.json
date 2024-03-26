@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "workspaceName": {
+      "value": null
+    },
+    "storageAccountName": {
+      "value": null
+    },
+    "sqlAdministratorLogin": {
+      "value": null
+    },
+    "sqlAdministratorPassword": {
+      "value": "Labuser@12345"
+    },
+    "tagValues": {
+      "value": {
+        "Created with": "Synapse Azure Resource Manager deploment template"
+      }
+    },
+    "cmkUri": {
+      "value": null
+    },
+    "setSbdcRbacOnStorageAccount": {
+      "value": null
+    }
+  }
+}
